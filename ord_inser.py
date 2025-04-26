@@ -1,4 +1,4 @@
-def ordenamiento(arr):
+def ordenamiento_inser(arr):
     #inicio=1
     for inicio in range(1,len(arr)):
      final=inicio
@@ -7,5 +7,5 @@ def ordenamiento(arr):
         final=final-1
 
 a=[9,8,7,6,5,4,3,2,1]
-ordenamiento(a)
+ordenamiento_inser(a)
 print(a)     
